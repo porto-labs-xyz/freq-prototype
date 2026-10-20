@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="48" sc-camel-view-box="0 0 80 48" role="img" aria-label="A finger dragging across the screen">
+          <path d="M18 24 L62 24" stroke="#C8FF4D" stroke-width="1.3" stroke-dasharray="4 5"></path>
+          <path d="M55 17 L63 24 L55 31" fill="none" stroke="#C8FF4D" stroke-width="1.3"></path>
+          <circle cx="18" cy="24" r="8" fill="#C8FF4D"></circle>
+        </svg>

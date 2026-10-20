@@ -1,0 +1,111 @@
+{
+  "$description": "FREQ source-derived draft, 20 October 2026. Native Figma not yet verified.",
+  "color": {
+    "canvas": {
+      "$type": "color",
+      "$value": "#0B0B0D"
+    },
+    "surface": {
+      "$type": "color",
+      "$value": "#121217"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "#F4F2ED"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "#8E8E9A"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "#B9B9C4"
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "#C8FF4D"
+    },
+    "accent-hover": {
+      "$type": "color",
+      "$value": "#E4FFA8"
+    },
+    "warm": {
+      "$type": "color",
+      "$value": "#FF8A4C"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "#25252E"
+    },
+    "line": {
+      "$type": "color",
+      "$value": "#32323C"
+    }
+  },
+  "font": {
+    "display": {
+      "$type": "fontFamily",
+      "$value": "Space Grotesk"
+    },
+    "label": {
+      "$type": "fontFamily",
+      "$value": "IBM Plex Mono"
+    }
+  },
+  "radius": {
+    "2": {
+      "$type": "dimension",
+      "$value": "2px"
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": "6px"
+    }
+  },
+  "space": {
+    "3": {
+      "$type": "dimension",
+      "$value": "3px"
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": "6px"
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "10": {
+      "$type": "dimension",
+      "$value": "10px"
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "14": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "22": {
+      "$type": "dimension",
+      "$value": "22px"
+    },
+    "32": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "44": {
+      "$type": "dimension",
+      "$value": "44px"
+    }
+  }
+}

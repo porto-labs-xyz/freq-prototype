@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="48" sc-camel-view-box="0 0 80 48" role="img" aria-label="A finger held down, filling a ring">
+          <circle cx="40" cy="24" r="18" fill="none" stroke="#2A2A33" stroke-width="2.6"></circle>
+          <circle cx="40" cy="24" r="18" fill="none" stroke="#C8FF4D" stroke-width="2.6" stroke-dasharray="78 35" transform="rotate(-90 40 24)"></circle>
+          <circle cx="40" cy="24" r="7" fill="#C8FF4D"></circle>
+        </svg>

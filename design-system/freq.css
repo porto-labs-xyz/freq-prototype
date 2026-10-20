@@ -1,0 +1,19 @@
+:root{
+  --freq-canvas: #0B0B0D;
+  --freq-surface: #121217;
+  --freq-text: #F4F2ED;
+  --freq-muted: #8E8E9A;
+  --freq-secondary: #B9B9C4;
+  --freq-accent: #C8FF4D;
+  --freq-accent-hover: #E4FFA8;
+  --freq-warm: #FF8A4C;
+  --freq-border: #25252E;
+  --freq-line: #32323C;
+  --freq-display: "Space Grotesk", system-ui, sans-serif;
+  --freq-label: "IBM Plex Mono", monospace;
+}
+body{background:var(--freq-canvas);color:var(--freq-text);font-family:var(--freq-display)}
+.freq-card{padding:12px 14px;border:1px solid var(--freq-border);border-radius:6px;background:var(--freq-surface)}
+.freq-button{background:var(--freq-accent);color:var(--freq-canvas);border:0;border-radius:6px;padding:14px 22px;min-height:44px;font:500 15px var(--freq-display);cursor:pointer}
+.freq-label{font:400 11px var(--freq-label);letter-spacing:.12em;color:var(--freq-muted)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--freq-accent);outline-offset:4px}
