@@ -1,13 +1,7 @@
 # FREQ editable Figma import
 
-1. Download and unzip freq-figma-import.zip from the web preview.
-2. In Figma Desktop, open a design file. Choose Plugins > Development > Import plugin from manifest, then select manifest.json from the extracted folder.
-3. Run FREQ Source Import. It creates seven 390 × 844 mobile frames, one 1240 × 620 Gestures board, six foundation paint styles and clickable screen navigation. Present the FREQ / Start a room flow.
+Import manifest.json as a development plugin in Figma Desktop, then run FREQ Source Import. It creates nine editable mobile frames and clickable navigation. Review order: Room, Show more, Pair, Start, Submit, Recap, optional Taste, Profile stub, gesture guide.
 
-The import creates native editable text, vector and frame nodes. No flattened screen screenshots or remote service are required. Install Space Grotesk and IBM Plex Mono for the closest match; unavailable fonts fall back to Inter and the plugin reports this.
+The kit reflects revision 3: liquid chrome, six product features, source lineage and no playlist saving. Native text, SVG and frame nodes use measured browser element geometry. Text boxes are approximate in this capture; text wrapping needs native Figma review. Frames are 390 pixels wide with content-driven heights and absolute positioning. This is not an auto-layout library. Dynamic interactions are initial-state snapshots.
 
-Geometry is measured from the rendered HTML using npm run capture with the local server at port 8137. Absolute positions preserve the source arrangement; this is not a responsive auto-layout library. Browser taste selections, visual modes, gestures and pool state are local JavaScript interactions; the Figma import captures their initial states and links between screens.
-
-Validation: the generated data, TypeScript API compatibility, plugin smoke run and all web screen links are checked in the repository. Execution and visual review inside Figma are still required. Font metrics and SVG import can differ from the browser. This package is an importable development plugin, not a .fig file or a published Figma library.
-
-Figma API references: https://developers.figma.com/docs/plugins/manifest/ and https://developers.figma.com/docs/plugins/api/properties/nodes-reactions/.
+Install Space Grotesk and IBM Plex Mono or accept the reported Inter fallback. Native Figma execution and visual QA remain unverified. Regenerate using npm run capture with the development server on port 8137, then npm run build for the downloadable kit.

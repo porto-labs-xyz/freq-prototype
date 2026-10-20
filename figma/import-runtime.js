@@ -50,7 +50,7 @@ async function run(){
   /** @type {Record<string,SceneNode>} */
   const frames={};
   for(let i=0;i<SCREENS.length;i++){
-    const spec=SCREENS[i];const frame=await build(spec.tree,page);frame.name=spec.name==='Main'?'Room':spec.name;frame.x=i<7?(i%4)*470:0;frame.y=i<7?Math.floor(i/4)*940:1880;frames[spec.name]=frame;
+    const spec=SCREENS[i];const frame=await build(spec.tree,page);frame.name=spec.name==='Main'?'Room':spec.name;frame.x=i*470;frame.y=0;frames[spec.name]=frame;
     frame.setPluginData('source',spec.name+'.dc.html');
   }
   for(const [node,target] of pending)if(frames[target]){
@@ -64,6 +64,6 @@ async function run(){
     const style=figma.createPaintStyle();style.name='FREQ / '+name;style.paints=paint(value);
   }
   figma.currentPage.selection=Object.values(frames);figma.viewport.scrollAndZoomIntoView(Object.values(frames));
-  figma.closePlugin('Imported 8 editable FREQ frames and clickable navigation.'+(fallbacks?' Some fonts use Inter. Install Space Grotesk and IBM Plex Mono, then re-import.':''));
+  figma.closePlugin('Imported 9 editable FREQ frames and clickable navigation.'+(fallbacks?' Some fonts use Inter. Install Space Grotesk and IBM Plex Mono, then re-import.':''));
 }
 run().catch(e=>{figma.notify(String(e),{error:true});figma.closePlugin();});

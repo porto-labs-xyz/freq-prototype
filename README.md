@@ -1,18 +1,16 @@
 # FREQ Prototype
 
-Live prototype: **https://freq-prototype.vercel.app/**
+Six-feature interaction study, revision 3. Room → Show more → Pair → Start → Submit → Recap is the review and build order. Taste is optional and skippable; Profile is a stub; City radio is deferred.
 
-[Figma import instructions and download](https://freq-prototype.vercel.app/figma/) · [Design system](https://freq-prototype.vercel.app/design-system/)
+The chrome frequency motif borrows the deck's liquid-metal direction. Room contains exactly four sections: what's playing, source, participants and picker. Every version names its source in the same view. Recap shares text describing actual local demo events and has no playlist-saving action.
 
-Seven mobile screens at 390 × 844 and a 1240 × 620 Gestures board, derived from the supplied FREQ concept. Start → Taste → Pair → Room, with Visualiser, Pool and Recap accessible from the room. The preview provides direct links to every screen.
+Astra provides short feedback. Room swipes and buttons change demo tracks, play/pause state and attribution. Gesture buttons simulate open palm, swipes and thumbs up/down; the slider simulates volume. No camera recognition, audio, Bluetooth, shared rooms, rights verification or payments are connected. Track names, creators and licences are fictional sample metadata. Play records persist only in sessionStorage and do not establish production accounting.
 
-Taste choices, visual modes, density, bloom, flare and pool selection run in the browser. Taste and pool selections last for the browser session. Room discovery, Bluetooth pairing, music, accounts, Spotify and participant data are illustrative. No backend or audio playback is supplied.
+The feature list explicitly covers automatic room building, picker recognition, lineage, recap, clean sourcing and free attributed listening. The proposed ten-second pairing is simulated.
 
 ## Figma
 
-Download the kit from the live site, unzip it, and import figma/manifest.json through Figma Desktop's development-plugin menu. Run FREQ Source Import to create native editable text, vectors, frames, foundation paint styles and clickable navigation. See [figma/README.md](figma/README.md).
-
-The import data uses measured browser geometry rather than screenshots. Native Figma execution and visual QA remain unverified; text metrics and SVG import can vary. Browser stateful interactions are captured at their initial state in Figma. This is not a published library or a .fig file.
+Nine editable frames with navigation, including the Show more sheet, optional Taste, Profile stub and gesture guide. Frame heights follow scrollable content. Current capture uses measured element geometry with approximate text boxes. Native Figma execution and visual QA remain unverified.
 
 ## Develop, verify and deploy
 

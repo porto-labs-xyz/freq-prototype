@@ -1,8 +1,8 @@
 import {chromium} from 'playwright';
 import {writeFile,readFile} from 'node:fs/promises';
 const browser=await chromium.launch();const page=await browser.newPage();const screens=[];
-for(const name of ['Start','Taste','Pair','Main','Visualiser','Submit','Recap','Gestures']){
- await page.setViewportSize({width:name==='Gestures'?1240:390,height:name==='Gestures'?620:844});
+for(const name of ['Main', 'ShowMore', 'Pair', 'Start', 'Submit', 'Recap', 'Taste', 'Profile', 'Gestures']){
+ await page.setViewportSize({width:390,height:844});
  await page.goto('http://127.0.0.1:8137/'+name+'.dc.html');await page.evaluate(()=>document.fonts.ready);
  screens.push(await page.evaluate((name)=>{
   const root=document.querySelector('body>div');const origin=root.getBoundingClientRect();
